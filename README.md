@@ -17,6 +17,8 @@
         * [1. btc_accounts](#1.-btc_accounts)
         * [2. btc_signMessage](#2.-btc_signmessage)
         * [3. btc_chainId](#3.-btc_chainid)
+        * [4. transfer btc/doge...](#4.-transfer-btc/doge...)
+        * [5. get btc/doge... balance](#5.-get-btc/doge...-balance)
 * [Nostr (Under development)](#nostr-(under-development))
     * [Interfaces](#interfaces-5)
 
@@ -194,6 +196,19 @@ bitcoin.request({
 // return chainid 
 '000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f'
 ```
+
+#### <a name='4.-transfer-btc/doge...'></a>4. transfer btc/doge...
+
+Reference: [tp-js-sdk: btcTokenTransfer](https://github.com/TP-Lab/tp-js-sdk#14.2-btctokentransfer)
+
+We will migrate the tp-js-sdk's methods into this new protocol in the future. But we will keep this tp-js-sdk either.
+
+
+#### <a name='5.-get-btc/doge...-balance'></a>5. get btc/doge... balance 
+
+Reference: [tp-js-sdk: getCurrentBalance](https://github.com/TP-Lab/tp-js-sdk#141-getcurrentbalance)
+
+We will migrate the tp-js-sdk's methods into this new protocol in the future. But we will keep this tp-js-sdk either.
 
 
 ## <a name='nostr-(under-development)'></a>Nostr (Under development)
